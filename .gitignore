@@ -1,0 +1,4 @@
+static-files/
+.mypy_cache/
+.ipython/
+.bash_history

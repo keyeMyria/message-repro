@@ -1,0 +1,448 @@
+2018-03-03 07:10:36,835 INFO     Starting server at tcp:port=8020:interface=0.0.0.0
+2018-03-03 07:10:36,836 INFO     HTTP/2 support enabled
+2018-03-03 07:10:36,836 INFO     Configuring endpoint tcp:port=8020:interface=0.0.0.0
+2018-03-03 07:10:36,837 INFO     Listening on TCP address 0.0.0.0:8020
+192.168.0.1:50510 - - [03/Mar/2018:07:10:45] "WSCONNECTING /frontend/" - -
+192.168.0.1:50512 - - [03/Mar/2018:07:10:45] "WSCONNECTING /frontend/" - -
+192.168.0.1:50510 - - [03/Mar/2018:07:10:45] "WSCONNECT /frontend/" - -
+192.168.0.1:50954 - - [03/Mar/2018:07:10:45] "WSCONNECTING /frontend/" - -
+192.168.0.1:50958 - - [03/Mar/2018:07:10:45] "WSCONNECTING /frontend/" - -
+192.168.0.1:50512 - - [03/Mar/2018:07:10:46] "WSCONNECT /frontend/" - -
+2018-03-03 07:10:46,026 INFO     5b: received {'type': 'join', 'key': '1a'}
+2018-03-03 07:10:46,041 INFO     5b: dispatching "type_join"
+192.168.0.1:51468 - - [03/Mar/2018:07:10:46] "WSCONNECTING /frontend/" - -
+192.168.0.1:51472 - - [03/Mar/2018:07:10:46] "WSCONNECTING /frontend/" - -
+192.168.0.1:50954 - - [03/Mar/2018:07:10:46] "WSCONNECT /frontend/" - -
+192.168.0.1:50510 - - [03/Mar/2018:07:10:46] "WSDISCONNECT /frontend/" - -
+192.168.0.1:52132 - - [03/Mar/2018:07:10:46] "WSCONNECTING /frontend/" - -
+192.168.0.1:52136 - - [03/Mar/2018:07:10:46] "WSCONNECTING /frontend/" - -
+192.168.0.1:50958 - - [03/Mar/2018:07:10:46] "WSCONNECT /frontend/" - -
+2018-03-03 07:10:46,788 INFO     5c: received {'type': 'join', 'key': '1a'}
+2018-03-03 07:10:46,800 INFO     5c: dispatching "type_join"
+192.168.0.1:50512 - - [03/Mar/2018:07:10:47] "WSDISCONNECT /frontend/" - -
+192.168.0.1:52638 - - [03/Mar/2018:07:10:47] "WSCONNECTING /frontend/" - -
+192.168.0.1:52642 - - [03/Mar/2018:07:10:47] "WSCONNECTING /frontend/" - -
+192.168.0.1:51468 - - [03/Mar/2018:07:10:47] "WSCONNECT /frontend/" - -
+192.168.0.1:50954 - - [03/Mar/2018:07:10:47] "WSDISCONNECT /frontend/" - -
+192.168.0.1:51472 - - [03/Mar/2018:07:10:47] "WSCONNECT /frontend/" - -
+2018-03-03 07:10:47,621 INFO     5c: received {'type': 'join', 'key': '1a'}
+2018-03-03 07:10:47,629 INFO     5c: dispatching "type_join"
+192.168.0.1:53188 - - [03/Mar/2018:07:10:47] "WSCONNECTING /frontend/" - -
+192.168.0.1:53190 - - [03/Mar/2018:07:10:47] "WSCONNECTING /frontend/" - -
+192.168.0.1:50958 - - [03/Mar/2018:07:10:47] "WSDISCONNECT /frontend/" - -
+192.168.0.1:52132 - - [03/Mar/2018:07:10:47] "WSCONNECT /frontend/" - -
+192.168.0.1:53696 - - [03/Mar/2018:07:10:48] "WSCONNECTING /frontend/" - -
+192.168.0.1:53700 - - [03/Mar/2018:07:10:48] "WSCONNECTING /frontend/" - -
+192.168.0.1:51468 - - [03/Mar/2018:07:10:48] "WSDISCONNECT /frontend/" - -
+192.168.0.1:52136 - - [03/Mar/2018:07:10:48] "WSCONNECT /frontend/" - -
+192.168.0.1:51472 - - [03/Mar/2018:07:10:48] "WSDISCONNECT /frontend/" - -
+192.168.0.1:54266 - - [03/Mar/2018:07:10:48] "WSCONNECTING /frontend/" - -
+192.168.0.1:54272 - - [03/Mar/2018:07:10:48] "WSCONNECTING /frontend/" - -
+192.168.0.1:52638 - - [03/Mar/2018:07:10:48] "WSCONNECT /frontend/" - -
+192.168.0.1:52132 - - [03/Mar/2018:07:10:49] "WSDISCONNECT /frontend/" - -
+192.168.0.1:52642 - - [03/Mar/2018:07:10:49] "WSCONNECT /frontend/" - -
+2018-03-03 07:10:49,108 INFO     1d: received {'type': 'join', 'key': '1a'}
+2018-03-03 07:10:49,115 INFO     1d: dispatching "type_join"
+192.168.0.1:54812 - - [03/Mar/2018:07:10:49] "WSCONNECTING /frontend/" - -
+192.168.0.1:54818 - - [03/Mar/2018:07:10:49] "WSCONNECTING /frontend/" - -
+192.168.0.1:53188 - - [03/Mar/2018:07:10:49] "WSCONNECT /frontend/" - -
+192.168.0.1:52136 - - [03/Mar/2018:07:10:49] "WSDISCONNECT /frontend/" - -
+192.168.0.1:55470 - - [03/Mar/2018:07:10:49] "WSCONNECTING /frontend/" - -
+192.168.0.1:55476 - - [03/Mar/2018:07:10:49] "WSCONNECTING /frontend/" - -
+192.168.0.1:52638 - - [03/Mar/2018:07:10:49] "WSDISCONNECT /frontend/" - -
+192.168.0.1:53190 - - [03/Mar/2018:07:10:49] "WSCONNECT /frontend/" - -
+2018-03-03 07:10:49,850 INFO     2c: received {'type': 'join', 'key': '1a'}
+2018-03-03 07:10:49,872 INFO     2c: dispatching "type_join"
+192.168.0.1:52642 - - [03/Mar/2018:07:10:50] "WSDISCONNECT /frontend/" - -
+192.168.0.1:55912 - - [03/Mar/2018:07:10:50] "WSCONNECTING /frontend/" - -
+192.168.0.1:55916 - - [03/Mar/2018:07:10:50] "WSCONNECTING /frontend/" - -
+192.168.0.1:53696 - - [03/Mar/2018:07:10:50] "WSCONNECT /frontend/" - -
+192.168.0.1:53188 - - [03/Mar/2018:07:10:50] "WSDISCONNECT /frontend/" - -
+192.168.0.1:53700 - - [03/Mar/2018:07:10:50] "WSCONNECT /frontend/" - -
+2018-03-03 07:10:50,647 INFO     5c: received {'type': 'join', 'key': '1a'}
+192.168.0.1:56450 - - [03/Mar/2018:07:10:50] "WSCONNECTING /frontend/" - -
+2018-03-03 07:10:50,671 INFO     5c: dispatching "type_join"
+192.168.0.1:56452 - - [03/Mar/2018:07:10:50] "WSCONNECTING /frontend/" - -
+2018-03-03 07:10:50,681 INFO     5b: received {'type': 'join', 'key': '1a'}
+2018-03-03 07:10:50,690 INFO     5b: dispatching "type_join"
+192.168.0.1:53190 - - [03/Mar/2018:07:10:50] "WSDISCONNECT /frontend/" - -
+192.168.0.1:54266 - - [03/Mar/2018:07:10:51] "WSCONNECT /frontend/" - -
+192.168.0.1:56966 - - [03/Mar/2018:07:10:51] "WSCONNECTING /frontend/" - -
+192.168.0.1:56972 - - [03/Mar/2018:07:10:51] "WSCONNECTING /frontend/" - -
+192.168.0.1:53696 - - [03/Mar/2018:07:10:51] "WSDISCONNECT /frontend/" - -
+192.168.0.1:54272 - - [03/Mar/2018:07:10:51] "WSCONNECT /frontend/" - -
+2018-03-03 07:10:51,409 INFO     1d: received {'type': 'join', 'key': '1a'}
+2018-03-03 07:10:51,421 INFO     1d: dispatching "type_join"
+2018-03-03 07:10:51,438 INFO     5e: received {'type': 'join', 'key': '1a'}
+2018-03-03 07:10:51,446 INFO     5e: dispatching "type_join"
+192.168.0.1:53700 - - [03/Mar/2018:07:10:51] "WSDISCONNECT /frontend/" - -
+192.168.0.1:57468 - - [03/Mar/2018:07:10:51] "WSCONNECTING /frontend/" - -
+192.168.0.1:57472 - - [03/Mar/2018:07:10:51] "WSCONNECTING /frontend/" - -
+192.168.0.1:54812 - - [03/Mar/2018:07:10:51] "WSCONNECT /frontend/" - -
+192.168.0.1:54266 - - [03/Mar/2018:07:10:52] "WSDISCONNECT /frontend/" - -
+192.168.0.1:57978 - - [03/Mar/2018:07:10:52] "WSCONNECTING /frontend/" - -
+192.168.0.1:57982 - - [03/Mar/2018:07:10:52] "WSCONNECTING /frontend/" - -
+192.168.0.1:54818 - - [03/Mar/2018:07:10:52] "WSCONNECT /frontend/" - -
+192.168.0.1:54272 - - [03/Mar/2018:07:10:52] "WSDISCONNECT /frontend/" - -
+192.168.0.1:55470 - - [03/Mar/2018:07:10:52] "WSCONNECT /frontend/" - -
+192.168.0.1:58524 - - [03/Mar/2018:07:10:52] "WSCONNECTING /frontend/" - -
+192.168.0.1:58526 - - [03/Mar/2018:07:10:52] "WSCONNECTING /frontend/" - -
+192.168.0.1:54812 - - [03/Mar/2018:07:10:52] "WSDISCONNECT /frontend/" - -
+192.168.0.1:55476 - - [03/Mar/2018:07:10:52] "WSCONNECT /frontend/" - -
+2018-03-03 07:10:52,987 INFO     5c: received {'type': 'join', 'key': '1a'}
+2018-03-03 07:10:53,002 INFO     5c: dispatching "type_join"
+192.168.0.1:59056 - - [03/Mar/2018:07:10:53] "WSCONNECTING /frontend/" - -
+192.168.0.1:59062 - - [03/Mar/2018:07:10:53] "WSCONNECTING /frontend/" - -
+192.168.0.1:54818 - - [03/Mar/2018:07:10:53] "WSDISCONNECT /frontend/" - -
+192.168.0.1:55912 - - [03/Mar/2018:07:10:53] "WSCONNECT /frontend/" - -
+192.168.0.1:55470 - - [03/Mar/2018:07:10:53] "WSDISCONNECT /frontend/" - -
+192.168.0.1:59612 - - [03/Mar/2018:07:10:53] "WSCONNECTING /frontend/" - -
+192.168.0.1:59618 - - [03/Mar/2018:07:10:53] "WSCONNECTING /frontend/" - -
+192.168.0.1:55916 - - [03/Mar/2018:07:10:53] "WSCONNECT /frontend/" - -
+2018-03-03 07:10:53,865 INFO     3e: received {'type': 'join', 'key': '1a'}
+2018-03-03 07:10:53,883 INFO     3e: dispatching "type_join"
+192.168.0.1:55476 - - [03/Mar/2018:07:10:53] "WSDISCONNECT /frontend/" - -
+192.168.0.1:60158 - - [03/Mar/2018:07:10:54] "WSCONNECTING /frontend/" - -
+192.168.0.1:60162 - - [03/Mar/2018:07:10:54] "WSCONNECTING /frontend/" - -
+192.168.0.1:56450 - - [03/Mar/2018:07:10:54] "WSCONNECT /frontend/" - -
+192.168.0.1:55912 - - [03/Mar/2018:07:10:54] "WSDISCONNECT /frontend/" - -
+192.168.0.1:56452 - - [03/Mar/2018:07:10:54] "WSCONNECT /frontend/" - -
+192.168.0.1:60632 - - [03/Mar/2018:07:10:54] "WSCONNECTING /frontend/" - -
+192.168.0.1:60634 - - [03/Mar/2018:07:10:54] "WSCONNECTING /frontend/" - -
+192.168.0.1:55916 - - [03/Mar/2018:07:10:54] "WSDISCONNECT /frontend/" - -
+192.168.0.1:56966 - - [03/Mar/2018:07:10:55] "WSCONNECT /frontend/" - -
+192.168.0.1:32804 - - [03/Mar/2018:07:10:55] "WSCONNECTING /frontend/" - -
+192.168.0.1:32806 - - [03/Mar/2018:07:10:55] "WSCONNECTING /frontend/" - -
+192.168.0.1:56450 - - [03/Mar/2018:07:10:55] "WSDISCONNECT /frontend/" - -
+192.168.0.1:56972 - - [03/Mar/2018:07:10:55] "WSDISCONNECT /frontend/" - -
+192.168.0.1:56452 - - [03/Mar/2018:07:10:55] "WSDISCONNECT /frontend/" - -
+192.168.0.1:33228 - - [03/Mar/2018:07:10:55] "WSCONNECTING /frontend/" - -
+192.168.0.1:33234 - - [03/Mar/2018:07:10:55] "WSCONNECTING /frontend/" - -
+192.168.0.1:56972 - - [03/Mar/2018:07:10:55] "WSCONNECT /frontend/" - -
+2018-03-03 07:10:55,721 INFO     1b: received {'type': 'join', 'key': '1a'}
+2018-03-03 07:10:55,738 INFO     1b: dispatching "type_join"
+2018-03-03 07:10:55,756 INFO     3c: received {'type': 'join', 'key': '1a'}
+2018-03-03 07:10:55,774 INFO     3c: dispatching "type_join"
+192.168.0.1:56966 - - [03/Mar/2018:07:10:56] "WSDISCONNECT /frontend/" - -
+192.168.0.1:57468 - - [03/Mar/2018:07:10:56] "WSCONNECT /frontend/" - -
+192.168.0.1:33724 - - [03/Mar/2018:07:10:56] "WSCONNECTING /frontend/" - -
+192.168.0.1:33726 - - [03/Mar/2018:07:10:56] "WSCONNECTING /frontend/" - -
+192.168.0.1:57472 - - [03/Mar/2018:07:10:56] "WSDISCONNECT /frontend/" - -
+192.168.0.1:57978 - - [03/Mar/2018:07:10:56] "WSDISCONNECT /frontend/" - -
+192.168.0.1:57982 - - [03/Mar/2018:07:10:56] "WSDISCONNECT /frontend/" - -
+192.168.0.1:57472 - - [03/Mar/2018:07:10:56] "WSCONNECT /frontend/" - -
+192.168.0.1:34206 - - [03/Mar/2018:07:10:56] "WSCONNECTING /frontend/" - -
+192.168.0.1:34208 - - [03/Mar/2018:07:10:56] "WSCONNECTING /frontend/" - -
+192.168.0.1:57978 - - [03/Mar/2018:07:10:56] "WSCONNECT /frontend/" - -
+192.168.0.1:57468 - - [03/Mar/2018:07:10:57] "WSDISCONNECT /frontend/" - -
+192.168.0.1:34836 - - [03/Mar/2018:07:10:57] "WSCONNECTING /frontend/" - -
+192.168.0.1:34840 - - [03/Mar/2018:07:10:57] "WSCONNECTING /frontend/" - -
+192.168.0.1:57982 - - [03/Mar/2018:07:10:57] "WSCONNECT /frontend/" - -
+2018-03-03 07:10:57,315 INFO     4e: received {'type': 'join', 'key': '1a'}
+2018-03-03 07:10:57,329 INFO     4e: dispatching "type_join"
+192.168.0.1:58524 - - [03/Mar/2018:07:10:57] "WSDISCONNECT /frontend/" - -
+192.168.0.1:58526 - - [03/Mar/2018:07:10:57] "WSDISCONNECT /frontend/" - -
+192.168.0.1:59056 - - [03/Mar/2018:07:10:57] "WSDISCONNECT /frontend/" - -
+192.168.0.1:59062 - - [03/Mar/2018:07:10:57] "WSDISCONNECT /frontend/" - -
+192.168.0.1:58524 - - [03/Mar/2018:07:10:57] "WSCONNECT /frontend/" - -
+192.168.0.1:35332 - - [03/Mar/2018:07:10:57] "WSCONNECTING /frontend/" - -
+192.168.0.1:35336 - - [03/Mar/2018:07:10:57] "WSCONNECTING /frontend/" - -
+2018-03-03 07:10:57,859 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd4d236d8>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 50958] path=b'/frontend/'> took too long to shut down and was killed.
+192.168.0.1:58526 - - [03/Mar/2018:07:10:57] "WSCONNECT /frontend/" - -
+192.168.0.1:35930 - - [03/Mar/2018:07:10:58] "WSCONNECTING /frontend/" - -
+192.168.0.1:35932 - - [03/Mar/2018:07:10:58] "WSCONNECTING /frontend/" - -
+192.168.0.1:59056 - - [03/Mar/2018:07:10:58] "WSCONNECT /frontend/" - -
+192.168.0.1:59612 - - [03/Mar/2018:07:10:58] "WSDISCONNECT /frontend/" - -
+192.168.0.1:59618 - - [03/Mar/2018:07:10:58] "WSDISCONNECT /frontend/" - -
+192.168.0.1:60158 - - [03/Mar/2018:07:10:58] "WSDISCONNECT /frontend/" - -
+192.168.0.1:60162 - - [03/Mar/2018:07:10:58] "WSDISCONNECT /frontend/" - -
+192.168.0.1:59062 - - [03/Mar/2018:07:10:58] "WSCONNECT /frontend/" - -
+2018-03-03 07:10:58,650 INFO     5c: received {'type': 'join', 'key': '1a'}
+2018-03-03 07:10:58,658 INFO     5c: dispatching "type_join"
+192.168.0.1:36450 - - [03/Mar/2018:07:10:58] "WSCONNECTING /frontend/" - -
+192.168.0.1:36452 - - [03/Mar/2018:07:10:58] "WSCONNECTING /frontend/" - -
+2018-03-03 07:10:58,861 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd2baed38>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 51472] path=b'/frontend/'> took too long to shut down and was killed.
+192.168.0.1:59612 - - [03/Mar/2018:07:10:59] "WSCONNECT /frontend/" - -
+192.168.0.1:37044 - - [03/Mar/2018:07:10:59] "WSCONNECTING /frontend/" - -
+192.168.0.1:37048 - - [03/Mar/2018:07:10:59] "WSCONNECTING /frontend/" - -
+192.168.0.1:59618 - - [03/Mar/2018:07:10:59] "WSCONNECT /frontend/" - -
+2018-03-03 07:10:59,395 INFO     1e: received {'type': 'join', 'key': '1a'}
+2018-03-03 07:10:59,407 INFO     1e: dispatching "type_join"
+192.168.0.1:60632 - - [03/Mar/2018:07:10:59] "WSDISCONNECT /frontend/" - -
+192.168.0.1:60634 - - [03/Mar/2018:07:10:59] "WSDISCONNECT /frontend/" - -
+192.168.0.1:32804 - - [03/Mar/2018:07:10:59] "WSDISCONNECT /frontend/" - -
+192.168.0.1:32806 - - [03/Mar/2018:07:10:59] "WSDISCONNECT /frontend/" - -
+2018-03-03 07:10:59,427 INFO     1c: received {'type': 'join', 'key': '1a'}
+2018-03-03 07:10:59,434 INFO     1c: dispatching "type_join"
+192.168.0.1:37604 - - [03/Mar/2018:07:10:59] "WSCONNECTING /frontend/" - -
+192.168.0.1:37608 - - [03/Mar/2018:07:10:59] "WSCONNECTING /frontend/" - -
+192.168.0.1:60158 - - [03/Mar/2018:07:10:59] "WSCONNECT /frontend/" - -
+2018-03-03 07:10:59,862 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd4d23d38>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 52136] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:10:59,862 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd3e04fd8>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 52638] path=b'/frontend/'> took too long to shut down and was killed.
+192.168.0.1:60162 - - [03/Mar/2018:07:11:00] "WSCONNECT /frontend/" - -
+2018-03-03 07:11:00,192 INFO     1a: received {'type': 'join', 'key': '1a'}
+2018-03-03 07:11:00,207 INFO     1a: dispatching "type_join"
+192.168.0.1:38060 - - [03/Mar/2018:07:11:00] "WSCONNECTING /frontend/" - -
+192.168.0.1:38062 - - [03/Mar/2018:07:11:00] "WSCONNECTING /frontend/" - -
+2018-03-03 07:11:00,225 INFO     2e: received {'type': 'join', 'key': '1a'}
+2018-03-03 07:11:00,240 INFO     2e: dispatching "type_join"
+192.168.0.1:33228 - - [03/Mar/2018:07:11:00] "WSDISCONNECT /frontend/" - -
+192.168.0.1:33234 - - [03/Mar/2018:07:11:00] "WSDISCONNECT /frontend/" - -
+192.168.0.1:33724 - - [03/Mar/2018:07:11:00] "WSDISCONNECT /frontend/" - -
+192.168.0.1:33726 - - [03/Mar/2018:07:11:00] "WSDISCONNECT /frontend/" - -
+192.168.0.1:60632 - - [03/Mar/2018:07:11:00] "WSCONNECT /frontend/" - -
+192.168.0.1:38528 - - [03/Mar/2018:07:11:00] "WSCONNECTING /frontend/" - -
+192.168.0.1:38532 - - [03/Mar/2018:07:11:00] "WSCONNECTING /frontend/" - -
+2018-03-03 07:11:00,863 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd3e04ee8>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 52642] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:00,863 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd3910d38>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 53188] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:00,864 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd3e04348>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 53190] path=b'/frontend/'> took too long to shut down and was killed.
+192.168.0.1:60634 - - [03/Mar/2018:07:11:00] "WSCONNECT /frontend/" - -
+2018-03-03 07:11:00,919 INFO     3c: received {'type': 'join', 'key': '1a'}
+2018-03-03 07:11:00,931 INFO     3c: dispatching "type_join"
+192.168.0.1:39146 - - [03/Mar/2018:07:11:01] "WSCONNECTING /frontend/" - -
+192.168.0.1:39150 - - [03/Mar/2018:07:11:01] "WSCONNECTING /frontend/" - -
+192.168.0.1:32804 - - [03/Mar/2018:07:11:01] "WSCONNECT /frontend/" - -
+192.168.0.1:34206 - - [03/Mar/2018:07:11:01] "WSDISCONNECT /frontend/" - -
+192.168.0.1:34208 - - [03/Mar/2018:07:11:01] "WSDISCONNECT /frontend/" - -
+192.168.0.1:34836 - - [03/Mar/2018:07:11:01] "WSDISCONNECT /frontend/" - -
+192.168.0.1:34840 - - [03/Mar/2018:07:11:01] "WSDISCONNECT /frontend/" - -
+192.168.0.1:32806 - - [03/Mar/2018:07:11:01] "WSCONNECT /frontend/" - -
+192.168.0.1:39688 - - [03/Mar/2018:07:11:01] "WSCONNECTING /frontend/" - -
+192.168.0.1:39692 - - [03/Mar/2018:07:11:01] "WSCONNECTING /frontend/" - -
+2018-03-03 07:11:01,865 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd3927f78>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 53696] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:01,866 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd4d23768>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 53700] path=b'/frontend/'> took too long to shut down and was killed.
+192.168.0.1:33228 - - [03/Mar/2018:07:11:02] "WSCONNECT /frontend/" - -
+192.168.0.1:40242 - - [03/Mar/2018:07:11:02] "WSCONNECTING /frontend/" - -
+192.168.0.1:40246 - - [03/Mar/2018:07:11:02] "WSCONNECTING /frontend/" - -
+192.168.0.1:33234 - - [03/Mar/2018:07:11:02] "WSCONNECT /frontend/" - -
+2018-03-03 07:11:02,383 INFO     5d: received {'type': 'join', 'key': '1a'}
+2018-03-03 07:11:02,395 INFO     5d: dispatching "type_join"
+192.168.0.1:35332 - - [03/Mar/2018:07:11:02] "WSDISCONNECT /frontend/" - -
+192.168.0.1:35336 - - [03/Mar/2018:07:11:02] "WSDISCONNECT /frontend/" - -
+192.168.0.1:35930 - - [03/Mar/2018:07:11:02] "WSDISCONNECT /frontend/" - -
+192.168.0.1:35932 - - [03/Mar/2018:07:11:02] "WSDISCONNECT /frontend/" - -
+192.168.0.1:33724 - - [03/Mar/2018:07:11:02] "WSCONNECT /frontend/" - -
+192.168.0.1:40842 - - [03/Mar/2018:07:11:02] "WSCONNECTING /frontend/" - -
+192.168.0.1:40846 - - [03/Mar/2018:07:11:02] "WSCONNECTING /frontend/" - -
+2018-03-03 07:11:02,867 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd2223d68>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 54266] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:02,868 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd2b712e8>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 54272] path=b'/frontend/'> took too long to shut down and was killed.
+192.168.0.1:33726 - - [03/Mar/2018:07:11:03] "WSCONNECT /frontend/" - -
+2018-03-03 07:11:03,118 INFO     1d: received {'type': 'join', 'key': '1a'}
+2018-03-03 07:11:03,132 INFO     1d: dispatching "type_join"
+192.168.0.1:41370 - - [03/Mar/2018:07:11:03] "WSCONNECTING /frontend/" - -
+192.168.0.1:41374 - - [03/Mar/2018:07:11:03] "WSCONNECTING /frontend/" - -
+192.168.0.1:36450 - - [03/Mar/2018:07:11:03] "WSDISCONNECT /frontend/" - -
+192.168.0.1:36452 - - [03/Mar/2018:07:11:03] "WSDISCONNECT /frontend/" - -
+192.168.0.1:37044 - - [03/Mar/2018:07:11:03] "WSDISCONNECT /frontend/" - -
+192.168.0.1:37048 - - [03/Mar/2018:07:11:03] "WSDISCONNECT /frontend/" - -
+192.168.0.1:34206 - - [03/Mar/2018:07:11:03] "WSCONNECT /frontend/" - -
+192.168.0.1:41928 - - [03/Mar/2018:07:11:03] "WSCONNECTING /frontend/" - -
+192.168.0.1:41932 - - [03/Mar/2018:07:11:03] "WSCONNECTING /frontend/" - -
+2018-03-03 07:11:03,870 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd39a3c48>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 54812] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:03,870 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd3927a98>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 54818] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:03,871 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd2b572b8>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 55470] path=b'/frontend/'> took too long to shut down and was killed.
+192.168.0.1:34208 - - [03/Mar/2018:07:11:03] "WSCONNECT /frontend/" - -
+192.168.0.1:42546 - - [03/Mar/2018:07:11:04] "WSCONNECTING /frontend/" - -
+192.168.0.1:42552 - - [03/Mar/2018:07:11:04] "WSCONNECTING /frontend/" - -
+192.168.0.1:34836 - - [03/Mar/2018:07:11:04] "WSCONNECT /frontend/" - -
+192.168.0.1:37604 - - [03/Mar/2018:07:11:04] "WSDISCONNECT /frontend/" - -
+192.168.0.1:37608 - - [03/Mar/2018:07:11:04] "WSDISCONNECT /frontend/" - -
+192.168.0.1:38060 - - [03/Mar/2018:07:11:04] "WSDISCONNECT /frontend/" - -
+192.168.0.1:38062 - - [03/Mar/2018:07:11:04] "WSDISCONNECT /frontend/" - -
+192.168.0.1:43058 - - [03/Mar/2018:07:11:04] "WSCONNECTING /frontend/" - -
+192.168.0.1:43062 - - [03/Mar/2018:07:11:04] "WSCONNECTING /frontend/" - -
+192.168.0.1:34840 - - [03/Mar/2018:07:11:04] "WSCONNECT /frontend/" - -
+2018-03-03 07:11:04,873 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd2bc0af8>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 55476] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:04,874 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd2bc0858>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 55912] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:04,874 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd22126d8>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 55916] path=b'/frontend/'> took too long to shut down and was killed.
+192.168.0.1:35332 - - [03/Mar/2018:07:11:05] "WSCONNECT /frontend/" - -
+192.168.0.1:43500 - - [03/Mar/2018:07:11:05] "WSCONNECTING /frontend/" - -
+192.168.0.1:43506 - - [03/Mar/2018:07:11:05] "WSCONNECTING /frontend/" - -
+192.168.0.1:38528 - - [03/Mar/2018:07:11:05] "WSDISCONNECT /frontend/" - -
+192.168.0.1:38532 - - [03/Mar/2018:07:11:05] "WSDISCONNECT /frontend/" - -
+192.168.0.1:39146 - - [03/Mar/2018:07:11:05] "WSDISCONNECT /frontend/" - -
+192.168.0.1:39150 - - [03/Mar/2018:07:11:05] "WSDISCONNECT /frontend/" - -
+192.168.0.1:35336 - - [03/Mar/2018:07:11:05] "WSCONNECT /frontend/" - -
+192.168.0.1:44022 - - [03/Mar/2018:07:11:05] "WSCONNECTING /frontend/" - -
+192.168.0.1:44028 - - [03/Mar/2018:07:11:05] "WSCONNECTING /frontend/" - -
+2018-03-03 07:11:05,876 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd2212678>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 56450] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:05,876 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd4d23dc8>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 56452] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:05,877 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd2b9abe8>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 56972] path=b'/frontend/'> took too long to shut down and was killed.
+192.168.0.1:35930 - - [03/Mar/2018:07:11:06] "WSCONNECT /frontend/" - -
+192.168.0.1:44610 - - [03/Mar/2018:07:11:06] "WSCONNECTING /frontend/" - -
+192.168.0.1:44614 - - [03/Mar/2018:07:11:06] "WSCONNECTING /frontend/" - -
+192.168.0.1:35932 - - [03/Mar/2018:07:11:06] "WSCONNECT /frontend/" - -
+192.168.0.1:39688 - - [03/Mar/2018:07:11:06] "WSDISCONNECT /frontend/" - -
+192.168.0.1:39692 - - [03/Mar/2018:07:11:06] "WSDISCONNECT /frontend/" - -
+192.168.0.1:40242 - - [03/Mar/2018:07:11:06] "WSDISCONNECT /frontend/" - -
+192.168.0.1:40246 - - [03/Mar/2018:07:11:06] "WSDISCONNECT /frontend/" - -
+192.168.0.1:45106 - - [03/Mar/2018:07:11:06] "WSCONNECTING /frontend/" - -
+192.168.0.1:45112 - - [03/Mar/2018:07:11:06] "WSCONNECTING /frontend/" - -
+192.168.0.1:36450 - - [03/Mar/2018:07:11:06] "WSCONNECT /frontend/" - -
+2018-03-03 07:11:06,878 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd4cb9858>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 56966] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:06,878 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd3988318>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 57472] path=b'/frontend/'> took too long to shut down and was killed.
+192.168.0.1:45566 - - [03/Mar/2018:07:11:07] "WSCONNECTING /frontend/" - -
+192.168.0.1:45572 - - [03/Mar/2018:07:11:07] "WSCONNECTING /frontend/" - -
+192.168.0.1:36452 - - [03/Mar/2018:07:11:07] "WSCONNECT /frontend/" - -
+192.168.0.1:40842 - - [03/Mar/2018:07:11:07] "WSDISCONNECT /frontend/" - -
+192.168.0.1:40846 - - [03/Mar/2018:07:11:07] "WSDISCONNECT /frontend/" - -
+192.168.0.1:41370 - - [03/Mar/2018:07:11:07] "WSDISCONNECT /frontend/" - -
+192.168.0.1:41374 - - [03/Mar/2018:07:11:07] "WSDISCONNECT /frontend/" - -
+192.168.0.1:46030 - - [03/Mar/2018:07:11:07] "WSCONNECTING /frontend/" - -
+192.168.0.1:46034 - - [03/Mar/2018:07:11:07] "WSCONNECTING /frontend/" - -
+192.168.0.1:37044 - - [03/Mar/2018:07:11:07] "WSCONNECT /frontend/" - -
+2018-03-03 07:11:07,881 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd2bae348>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 57468] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:07,882 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd45ed768>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 58524] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:07,882 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd2b7eb58>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 59062] path=b'/frontend/'> took too long to shut down and was killed.
+192.168.0.1:37048 - - [03/Mar/2018:07:11:08] "WSCONNECT /frontend/" - -
+192.168.0.1:46564 - - [03/Mar/2018:07:11:08] "WSCONNECTING /frontend/" - -
+192.168.0.1:46568 - - [03/Mar/2018:07:11:08] "WSCONNECTING /frontend/" - -
+192.168.0.1:41928 - - [03/Mar/2018:07:11:08] "WSDISCONNECT /frontend/" - -
+192.168.0.1:41932 - - [03/Mar/2018:07:11:08] "WSDISCONNECT /frontend/" - -
+192.168.0.1:42546 - - [03/Mar/2018:07:11:08] "WSDISCONNECT /frontend/" - -
+192.168.0.1:42552 - - [03/Mar/2018:07:11:08] "WSDISCONNECT /frontend/" - -
+192.168.0.1:37604 - - [03/Mar/2018:07:11:08] "WSCONNECT /frontend/" - -
+192.168.0.1:47082 - - [03/Mar/2018:07:11:08] "WSCONNECTING /frontend/" - -
+192.168.0.1:47088 - - [03/Mar/2018:07:11:08] "WSCONNECTING /frontend/" - -
+2018-03-03 07:11:08,884 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd2b9aaf8>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 59618] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:08,885 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd22122b8>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 60158] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:08,885 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd22121f8>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 60162] path=b'/frontend/'> took too long to shut down and was killed.
+192.168.0.1:37608 - - [03/Mar/2018:07:11:09] "WSCONNECT /frontend/" - -
+192.168.0.1:47684 - - [03/Mar/2018:07:11:09] "WSCONNECTING /frontend/" - -
+192.168.0.1:47688 - - [03/Mar/2018:07:11:09] "WSCONNECTING /frontend/" - -
+192.168.0.1:43058 - - [03/Mar/2018:07:11:09] "WSDISCONNECT /frontend/" - -
+192.168.0.1:43062 - - [03/Mar/2018:07:11:09] "WSDISCONNECT /frontend/" - -
+192.168.0.1:43500 - - [03/Mar/2018:07:11:09] "WSDISCONNECT /frontend/" - -
+192.168.0.1:43506 - - [03/Mar/2018:07:11:09] "WSDISCONNECT /frontend/" - -
+192.168.0.1:38060 - - [03/Mar/2018:07:11:09] "WSCONNECT /frontend/" - -
+192.168.0.1:48126 - - [03/Mar/2018:07:11:09] "WSCONNECTING /frontend/" - -
+192.168.0.1:48130 - - [03/Mar/2018:07:11:09] "WSCONNECTING /frontend/" - -
+2018-03-03 07:11:09,886 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd4d07408>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 60632] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:09,888 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd2212e28>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 60634] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:09,888 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd2223618>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 32804] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:09,889 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd2223b28>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 32806] path=b'/frontend/'> took too long to shut down and was killed.
+192.168.0.1:38062 - - [03/Mar/2018:07:11:09] "WSCONNECT /frontend/" - -
+192.168.0.1:48648 - - [03/Mar/2018:07:11:10] "WSCONNECTING /frontend/" - -
+192.168.0.1:48652 - - [03/Mar/2018:07:11:10] "WSCONNECTING /frontend/" - -
+192.168.0.1:38528 - - [03/Mar/2018:07:11:10] "WSCONNECT /frontend/" - -
+192.168.0.1:44022 - - [03/Mar/2018:07:11:10] "WSDISCONNECT /frontend/" - -
+192.168.0.1:44028 - - [03/Mar/2018:07:11:10] "WSDISCONNECT /frontend/" - -
+192.168.0.1:44610 - - [03/Mar/2018:07:11:10] "WSDISCONNECT /frontend/" - -
+192.168.0.1:44614 - - [03/Mar/2018:07:11:10] "WSDISCONNECT /frontend/" - -
+192.168.0.1:38532 - - [03/Mar/2018:07:11:10] "WSCONNECT /frontend/" - -
+192.168.0.1:49216 - - [03/Mar/2018:07:11:10] "WSCONNECTING /frontend/" - -
+192.168.0.1:49220 - - [03/Mar/2018:07:11:10] "WSCONNECTING /frontend/" - -
+2018-03-03 07:11:10,891 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd3988288>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 33228] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:10,891 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd3e04978>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 33234] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:10,892 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd464a5b8>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 33724] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:10,892 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd3e25438>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 33726] path=b'/frontend/'> took too long to shut down and was killed.
+192.168.0.1:39146 - - [03/Mar/2018:07:11:11] "WSCONNECT /frontend/" - -
+192.168.0.1:49880 - - [03/Mar/2018:07:11:11] "WSCONNECTING /frontend/" - -
+192.168.0.1:49884 - - [03/Mar/2018:07:11:11] "WSCONNECTING /frontend/" - -
+192.168.0.1:45106 - - [03/Mar/2018:07:11:11] "WSDISCONNECT /frontend/" - -
+192.168.0.1:45112 - - [03/Mar/2018:07:11:11] "WSDISCONNECT /frontend/" - -
+192.168.0.1:45566 - - [03/Mar/2018:07:11:11] "WSDISCONNECT /frontend/" - -
+192.168.0.1:45572 - - [03/Mar/2018:07:11:11] "WSDISCONNECT /frontend/" - -
+192.168.0.1:39150 - - [03/Mar/2018:07:11:11] "WSCONNECT /frontend/" - -
+192.168.0.1:50470 - - [03/Mar/2018:07:11:11] "WSCONNECTING /frontend/" - -
+192.168.0.1:50474 - - [03/Mar/2018:07:11:11] "WSCONNECTING /frontend/" - -
+2018-03-03 07:11:11,893 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd3e25318>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 34206] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:11,893 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd3e25fd8>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 34208] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:11,893 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd3927138>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 34836] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:11,894 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd2b7ea08>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 34840] path=b'/frontend/'> took too long to shut down and was killed.
+192.168.0.1:39688 - - [03/Mar/2018:07:11:11] "WSCONNECT /frontend/" - -
+192.168.0.1:39038 - - [03/Mar/2018:07:11:12] "WSCONNECTING /frontend/" - -
+192.168.0.1:39040 - - [03/Mar/2018:07:11:12] "WSCONNECTING /frontend/" - -
+192.168.0.1:39692 - - [03/Mar/2018:07:11:12] "WSCONNECT /frontend/" - -
+192.168.0.1:46030 - - [03/Mar/2018:07:11:12] "WSDISCONNECT /frontend/" - -
+192.168.0.1:46034 - - [03/Mar/2018:07:11:12] "WSDISCONNECT /frontend/" - -
+192.168.0.1:46564 - - [03/Mar/2018:07:11:12] "WSDISCONNECT /frontend/" - -
+192.168.0.1:46568 - - [03/Mar/2018:07:11:12] "WSDISCONNECT /frontend/" - -
+192.168.0.1:39546 - - [03/Mar/2018:07:11:12] "WSCONNECTING /frontend/" - -
+192.168.0.1:39548 - - [03/Mar/2018:07:11:12] "WSCONNECTING /frontend/" - -
+192.168.0.1:40242 - - [03/Mar/2018:07:11:12] "WSCONNECT /frontend/" - -
+2018-03-03 07:11:12,897 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd45ed648>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 35332] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:12,897 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd3e25348>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 35336] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:12,898 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd2baeac8>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 35930] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:12,898 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd2bae978>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 35932] path=b'/frontend/'> took too long to shut down and was killed.
+192.168.0.1:40246 - - [03/Mar/2018:07:11:13] "WSCONNECT /frontend/" - -
+192.168.0.1:40010 - - [03/Mar/2018:07:11:13] "WSCONNECTING /frontend/" - -
+192.168.0.1:40012 - - [03/Mar/2018:07:11:13] "WSCONNECTING /frontend/" - -
+192.168.0.1:47082 - - [03/Mar/2018:07:11:13] "WSDISCONNECT /frontend/" - -
+192.168.0.1:47088 - - [03/Mar/2018:07:11:13] "WSDISCONNECT /frontend/" - -
+192.168.0.1:47684 - - [03/Mar/2018:07:11:13] "WSDISCONNECT /frontend/" - -
+192.168.0.1:47688 - - [03/Mar/2018:07:11:13] "WSDISCONNECT /frontend/" - -
+192.168.0.1:40842 - - [03/Mar/2018:07:11:13] "WSCONNECT /frontend/" - -
+192.168.0.1:40572 - - [03/Mar/2018:07:11:13] "WSCONNECTING /frontend/" - -
+192.168.0.1:40576 - - [03/Mar/2018:07:11:13] "WSCONNECTING /frontend/" - -
+2018-03-03 07:11:13,900 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd45ed918>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 36450] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:13,900 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd4605f48>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 36452] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:13,900 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd2bc0738>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 37044] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:13,900 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd3e3b1f8>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 37048] path=b'/frontend/'> took too long to shut down and was killed.
+192.168.0.1:40846 - - [03/Mar/2018:07:11:13] "WSCONNECT /frontend/" - -
+192.168.0.1:41156 - - [03/Mar/2018:07:11:14] "WSCONNECTING /frontend/" - -
+192.168.0.1:41158 - - [03/Mar/2018:07:11:14] "WSCONNECTING /frontend/" - -
+192.168.0.1:41370 - - [03/Mar/2018:07:11:14] "WSCONNECT /frontend/" - -
+192.168.0.1:48126 - - [03/Mar/2018:07:11:14] "WSDISCONNECT /frontend/" - -
+192.168.0.1:48130 - - [03/Mar/2018:07:11:14] "WSDISCONNECT /frontend/" - -
+192.168.0.1:48648 - - [03/Mar/2018:07:11:14] "WSDISCONNECT /frontend/" - -
+192.168.0.1:48652 - - [03/Mar/2018:07:11:14] "WSDISCONNECT /frontend/" - -
+192.168.0.1:41374 - - [03/Mar/2018:07:11:14] "WSCONNECT /frontend/" - -
+192.168.0.1:41624 - - [03/Mar/2018:07:11:14] "WSCONNECTING /frontend/" - -
+192.168.0.1:41626 - - [03/Mar/2018:07:11:14] "WSCONNECTING /frontend/" - -
+2018-03-03 07:11:14,903 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd4d078b8>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 37604] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:14,904 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd4605828>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 37608] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:14,904 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd4605168>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 38060] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:14,905 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd4724618>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 38062] path=b'/frontend/'> took too long to shut down and was killed.
+192.168.0.1:42102 - - [03/Mar/2018:07:11:15] "WSCONNECTING /frontend/" - -
+192.168.0.1:42106 - - [03/Mar/2018:07:11:15] "WSCONNECTING /frontend/" - -
+192.168.0.1:41928 - - [03/Mar/2018:07:11:15] "WSCONNECT /frontend/" - -
+192.168.0.1:49216 - - [03/Mar/2018:07:11:15] "WSDISCONNECT /frontend/" - -
+192.168.0.1:49220 - - [03/Mar/2018:07:11:15] "WSDISCONNECT /frontend/" - -
+192.168.0.1:49880 - - [03/Mar/2018:07:11:15] "WSDISCONNECT /frontend/" - -
+192.168.0.1:49884 - - [03/Mar/2018:07:11:15] "WSDISCONNECT /frontend/" - -
+192.168.0.1:42620 - - [03/Mar/2018:07:11:15] "WSCONNECTING /frontend/" - -
+192.168.0.1:42622 - - [03/Mar/2018:07:11:15] "WSCONNECTING /frontend/" - -
+192.168.0.1:41932 - - [03/Mar/2018:07:11:15] "WSCONNECT /frontend/" - -
+2018-03-03 07:11:15,907 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd2bc0be8>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 38528] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:15,907 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd2b57318>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 38532] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:15,907 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd2b7e8b8>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 39146] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:15,908 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd4cb9558>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 39150] path=b'/frontend/'> took too long to shut down and was killed.
+192.168.0.1:42546 - - [03/Mar/2018:07:11:16] "WSCONNECT /frontend/" - -
+192.168.0.1:43182 - - [03/Mar/2018:07:11:16] "WSCONNECTING /frontend/" - -
+192.168.0.1:43186 - - [03/Mar/2018:07:11:16] "WSCONNECTING /frontend/" - -
+192.168.0.1:50470 - - [03/Mar/2018:07:11:16] "WSDISCONNECT /frontend/" - -
+192.168.0.1:50474 - - [03/Mar/2018:07:11:16] "WSDISCONNECT /frontend/" - -
+192.168.0.1:39038 - - [03/Mar/2018:07:11:16] "WSDISCONNECT /frontend/" - -
+192.168.0.1:39040 - - [03/Mar/2018:07:11:16] "WSDISCONNECT /frontend/" - -
+192.168.0.1:42552 - - [03/Mar/2018:07:11:16] "WSCONNECT /frontend/" - -
+192.168.0.1:43788 - - [03/Mar/2018:07:11:16] "WSCONNECTING /frontend/" - -
+192.168.0.1:43792 - - [03/Mar/2018:07:11:16] "WSCONNECTING /frontend/" - -
+2018-03-03 07:11:16,909 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd39a3c18>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 39688] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:16,909 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd4d07ac8>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 39692] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:16,909 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd2b71eb8>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 40242] path=b'/frontend/'> took too long to shut down and was killed.
+2018-03-03 07:11:16,910 WARNING  Application instance <Task pending coro=<AsyncConsumer.__call__() running at /app/src/channels/channels/consumer.py:54> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/local/lib/python3.6/asyncio/futures.py:403, <TaskWakeupMethWrapper object at 0x7f1cd3910d08>()]>> for connection <WebSocketProtocol client=['192.168.0.1', 40246] path=b'/frontend/'> took too long to shut down and was killed.
+192.168.0.1:43058 - - [03/Mar/2018:07:11:16] "WSCONNECT /frontend/" - -
+192.168.0.1:44416 - - [03/Mar/2018:07:11:17] "WSCONNECTING /frontend/" - -
+192.168.0.1:44418 - - [03/Mar/2018:07:11:17] "WSCONNECTING /frontend/" - -
+192.168.0.1:43062 - - [03/Mar/2018:07:11:17] "WSCONNECT /frontend/" - -
+192.168.0.1:39546 - - [03/Mar/2018:07:11:17] "WSDISCONNECT /frontend/" - -
+192.168.0.1:39548 - - [03/Mar/2018:07:11:17] "WSDISCONNECT /frontend/" - -
+192.168.0.1:40010 - - [03/Mar/2018:07:11:17] "WSDISCONNECT /frontend/" - -
+192.168.0.1:40012 - - [03/Mar/2018:07:11:17] "WSDISCONNECT /frontend/" - -
+^C192.168.0.1:41624 - - [03/Mar/2018:07:11:17] "WSDISCONNECT /frontend/" - -
+192.168.0.1:43788 - - [03/Mar/2018:07:11:17] "WSDISCONNECT /frontend/" - -
+192.168.0.1:41626 - - [03/Mar/2018:07:11:17] "WSDISCONNECT /frontend/" - -
+192.168.0.1:41158 - - [03/Mar/2018:07:11:17] "WSDISCONNECT /frontend/" - -
+192.168.0.1:40572 - - [03/Mar/2018:07:11:17] "WSDISCONNECT /frontend/" - -
+192.168.0.1:41156 - - [03/Mar/2018:07:11:17] "WSDISCONNECT /frontend/" - -
+192.168.0.1:42102 - - [03/Mar/2018:07:11:17] "WSDISCONNECT /frontend/" - -
+192.168.0.1:42620 - - [03/Mar/2018:07:11:17] "WSDISCONNECT /frontend/" - -
+192.168.0.1:42622 - - [03/Mar/2018:07:11:17] "WSDISCONNECT /frontend/" - -
+192.168.0.1:43182 - - [03/Mar/2018:07:11:17] "WSDISCONNECT /frontend/" - -
+192.168.0.1:44416 - - [03/Mar/2018:07:11:17] "WSDISCONNECT /frontend/" - -
+192.168.0.1:43186 - - [03/Mar/2018:07:11:17] "WSDISCONNECT /frontend/" - -
+192.168.0.1:44418 - - [03/Mar/2018:07:11:17] "WSDISCONNECT /frontend/" - -
+192.168.0.1:42106 - - [03/Mar/2018:07:11:17] "WSDISCONNECT /frontend/" - -
+192.168.0.1:40576 - - [03/Mar/2018:07:11:17] "WSDISCONNECT /frontend/" - -
+192.168.0.1:43792 - - [03/Mar/2018:07:11:17] "WSDISCONNECT /frontend/" - -

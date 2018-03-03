@@ -1,0 +1,29 @@
+# this is slower than --extra-index-url but prevents someone from snagging our package name on PyPi
+# and executing an attack that way
+--index-url https://read-only:z4WIE57y889O93aX@pypicloud.canvasmedical.com/simple/
+
+-e git+https://github.com/django/asgiref.git@daebab19124cf85150fff5ffa2457beee92cf49f#egg=asgiref
+-e git+https://github.com/django/channels.git@d6643d96dd59e153cda13681a6d5a8963b9d577c#egg=channels
+
+arrow==0.12.1
+canvas-common==2.1.1
+# channels==2.0.2
+channels-redis==2.1.0
+cryptography==2.1.4
+daphne==2.0.4
+dj-database-url==0.4.2
+django-cors-headers==2.1.0
+django-extensions==1.9.9
+django-filter==1.1.0
+Django==2.0.2
+djangorestframework==3.7.7
+env_tools==2.2.0
+ipython
+psutil==5.4.3
+psycopg2==2.7.4
+raven==6.5.0
+requests==2.18.4
+stringcase==1.2.0
+twisted[http2, tls]==17.9.0
+uwsgi==2.0.16
+whitenoise==3.3.1

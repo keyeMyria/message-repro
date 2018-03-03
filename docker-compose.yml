@@ -1,0 +1,35 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    command: ./serve.sh
+    container_name: messaging-repro-web
+    depends_on:
+      - db
+      - redis
+    env_file: .env
+    image: messaging-repro-web
+    ports:
+      - ${PORT}:${PORT}
+    volumes:
+      - /app/src/
+      - .:/app
+
+  db:
+    container_name: messaging-repro-db
+    environment:
+      POSTGRES_DB: messaging-repro
+      POSTGRES_USER: messaging
+      POSTGRES_PASSWORD: messaging
+      PGDATA: /postgres/data
+    image: postgres:latest
+    volumes:
+      - messaging-repro-data:/postgres/data
+
+  redis:
+    container_name: messaging-repro-redis
+    image: redis:3.2-alpine
+
+volumes:
+  messaging-repro-data:
